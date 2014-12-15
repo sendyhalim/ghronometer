@@ -1,10 +1,11 @@
 package main
 
 import (
-	"./executor"
-	"./timer"
 	"flag"
 	"fmt"
+
+	"github.com/sendyHalim/ghronometer/executor"
+	"github.com/sendyHalim/ghronometer/timer"
 )
 
 const CLR_G = "\x1b[32;1m"
