@@ -14,6 +14,7 @@ func main() {
 	flag.Parse()
 	var input []string = flag.Args()
 
+	// if no input then just return
 	if len(input) < 1 {
 		return
 	}
@@ -22,8 +23,9 @@ func main() {
 	var args []string = input[1:]
 
 	t := &timer.Timer{}
-
+	// start the timer
 	t.Start()
+
 	executor.Execute(processName, args...)
 
 	fmt.Printf("\n%selapsed time is %d ms%s\n", CLR_G, t.Counter(), CLR_N)
