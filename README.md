@@ -4,24 +4,24 @@ Just a simple tool to count elapsed time for a (script|command line tool) to fin
 ##Installation
 Fire up terminal, run
 
-```
+```sh
 go get github.com/sendyHalim/ghronometer
 ```
 
 ##Example Usage
-```
+```sh
 ghronometer composer update
 ```
 
-```
+```sh
 ghronometer composer self-update
 ```
 
-```
+```sh
 ghronometer curl google.com -I
 ```
 
-This package just add elapsed time in ms after each command finished :), feel free to contribute.
+This package adds elapsed time in `ms` after each command has finished :), feel free to contribute.
 
 ##License
 Ghronometer is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
