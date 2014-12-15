@@ -29,5 +29,5 @@ func main() {
 
 	executor.Execute(processName, args...)
 
-	fmt.Printf("\n%selapsed time is %d ms%s\n", CLR_G, t.Counter(), CLR_N)
+	fmt.Printf("\n%selapsed time: %d ms%s\n", CLR_G, t.Counter(), CLR_N)
 }
