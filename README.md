@@ -45,7 +45,7 @@ This package adds elapsed time in `ms` after each command has finished :), feel 
 ##Root command
 If you need to run command with root access(e.g in ubuntu `sudo`):
 ```
-sudo cp ~/go/bin/ghronometer /usr/bin/ghronometer
+sudo cp $GOPATH/bin/ghronometer /usr/bin/ghronometer
 ```
 just remember that you need to re-run above command everytime you update `ghronometer` package
 
