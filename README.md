@@ -1,12 +1,12 @@
 #Ghronometer
 Just a simple tool to count elapsed time for a (script|command line tool) to finish
 
-[![Build Status](https://travis-ci.org/sendyHalim/ghronometer.svg)](https://travis-ci.org/sendyHalim/ghronometer)
+[![Build Status](https://travis-ci.org/sendyhalim/ghronometer.svg)](https://travis-ci.org/sendyHalim/ghronometer)
 ##Installation
 Fire up terminal, run
 
 ```sh
-go get github.com/sendyHalim/ghronometer
+go get github.com/sendyhalim/ghronometer
 ```
 
 ##Example Usage
